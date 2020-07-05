@@ -1,5 +1,6 @@
 body {
   color: #000000;
+  background-color: gray;
 }
 .selections {
   display: flex;
@@ -15,6 +16,25 @@ body {
 }
 .selection:hover {
   transform: scale(1.2);
+}
+
+.you {
+  font-size: 25px;
+  color: bisque;
+}
+.computer {
+  font-size: 25px;
+  color: bisque;
+}
+.rock {
+  color: orangered;
+  background-color: grey;
+}
+.paper {
+  color: aqua;
+}
+.scissor {
+  color: blue;
 }
 .result {
   display: grid;
